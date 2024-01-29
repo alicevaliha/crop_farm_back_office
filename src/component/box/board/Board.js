@@ -7,11 +7,11 @@ import Card_two from "../../card/card-2/Card_two";
 import Graphbox from "../../card/statbox/Graphbox";
 import Statbox from "../../card/statbox/Statbox";
 import Ad from "../../elements/ad/Ad";
-import Listbox from "../../card/listbox/Listbox.js";
 
 const Board = () => {
   // État pour stocker le nom d'utilisateur récupéré du localStorage
   const [username, setUsername] = useState("");
+  // eslint-disable-next-line
   const [usermail, setUsermail] = useState("");
   const [datasurface, setDatasurface] = useState("");
   const [datarecolte, setDatarecolte] = useState("");

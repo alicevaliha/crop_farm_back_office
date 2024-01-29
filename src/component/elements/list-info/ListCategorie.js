@@ -1,8 +1,5 @@
 import React from 'react';
 import './index.css'; 
-import Deletebutton from "../button/Deletebutton.js"
-import TerrainButton from '../button/TerrainButton.js';
-import DetailsTerrain from '../button/DetailsTerrain.js';
 const ListCategorie = ({nom,id}) => {
   return (
     <div className="list-info-cat">

@@ -2,21 +2,10 @@ import React, { useState, useEffect } from "react";
 import axios from 'axios'; // Importez axios ici
 
 import "./index.css";
-import Card_one from "../../card/card-1/Card_one";
-import Card_two from "../../card/card-2/Card_two";
-import Graphbox from "../../card/statbox/Graphbox";
-import Statbox from "../../card/statbox/Statbox";
 import Ad from "../../elements/ad/Ad";
-import Listbox from "../../card/listbox/Listbox.js"
-import ListeCategorie from "../../card/listbox/ListCategorie.js";
 import Quotes from "../../elements/quote/Quote.js";
-import  Form from "../../form/Form.js"
-import UniqueCat from "../../elements/list-info/UniqueCat.js"
-import FormList from "../../form/FormList.js"
-import ListePlante from "../../elements/list-info/ListePlante.js"
 import UpdatingForm from "../../form/UpdatingForm.js"
 import ListePlantePrim from "../../elements/list-info/ListePlantePrim.js";
-import { useParams } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
 
@@ -41,6 +30,7 @@ const DetailPlanteBoard = () => {
     .then(response => {
       // Mettez à jour l'état avec les données récupérées depuis l'API
       setDataterrain(response.data);
+      // eslint-disable-next-line
       console.log(dataterrain.nom_plante);
     })
     .catch(error => {

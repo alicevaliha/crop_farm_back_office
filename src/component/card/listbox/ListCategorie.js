@@ -1,8 +1,6 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios'; // Importez axios ici
 import "./index.css"; // Importez votre fichier CSS
-import DeleteButton from "../../elements/button/Deletebutton.js"
-import Listinfo from "../../elements/list-info/ListInfo.js";
 import ListCategorie from "../../elements/list-info/ListCategorie.js";
 
 const ListeCategorie = () => {
@@ -21,24 +19,6 @@ const ListeCategorie = () => {
       });
   }, []);
  
-  useEffect(() => {
-
-
-    // let request = "https://cropfarmback-production.up.railway.app/plantes/";
-    // request += idplante;
-    // console.log(request);
-    // axios.get(request)
-    // .then(response => {
-    //   // Mettez à jour l'état avec les données récupérées depuis l'API
-    //   setDataterrain(response.data);
-    //   console.log(dataterrain.nom_plante);
-    // })
-    // .catch(error => {
-    //   console.log('Erreur lors de la récupération des plantes non valides :', error);
-    // });
-
-    
-  }, []);
   return (
     <>
     <div className="float-bloc-list">

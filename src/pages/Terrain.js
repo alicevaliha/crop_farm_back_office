@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from '../component/navbar/Navbar';
-import PlantBoard from '../component/box/board/PlantBoard';
 import LeftNav from '../component/box/nav/LeftNav';
 import Footer from '../component/box/footer/Footer';
 import TerrainBoard from '../component/box/board/TerrainBoard';

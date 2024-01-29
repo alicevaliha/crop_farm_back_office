@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css"; // Importez votre fichier CSS
-import DeleteButton from "../../elements/button/Deletebutton.js"
 import LessPlant from "../../elements/list-info/LessPlant.js";
 
 const ListPlante = () => {

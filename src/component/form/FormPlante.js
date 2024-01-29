@@ -3,7 +3,6 @@ import axios from 'axios';
 import "./index.css";
 import Input from "../elements/input/Input.js";
 import BtnprimaryComponent from "../elements/button/BtnPrimary.js";
-import Select from "../elements/input/Select.js";
 
 const FormPlante = () => {
   const [nom, setNom] = useState("");

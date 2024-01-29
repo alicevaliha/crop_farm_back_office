@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import "./index.css";
 import MoreButton from "../../elements/button/MoreButton";
 import BtnprimaryComponent from "../../elements/button/BtnPrimary";

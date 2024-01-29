@@ -2,7 +2,6 @@ import React from 'react';
 import Navbar from '../component/navbar/Navbar';
 import LeftNav from '../component/box/nav/LeftNav';
 import Footer from '../component/box/footer/Footer';
-import CategorieBoard from '../component/box/board/CategorieBoard';
 import DetCatBoard from '../component/box/board/DetCatBoard'
 
 function Categories() {

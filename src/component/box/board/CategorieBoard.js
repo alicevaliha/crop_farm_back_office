@@ -1,15 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState} from "react";
 import axios from 'axios'; // Importez axios ici
 import "./index.css";
-import Card_one from "../../card/card-1/Card_one";
-import Card_two from "../../card/card-2/Card_two";
-import Graphbox from "../../card/statbox/Graphbox";
-import Statbox from "../../card/statbox/Statbox";
 import Ad from "../../elements/ad/Ad";
-import Listbox from "../../card/listbox/Listbox.js"
 import ListeCategorie from "../../card/listbox/ListCategorie.js";
 import Quotes from "../../elements/quote/Quote.js";
-import  Form from "../../form/Form.js"
 import Input from "../../elements/input/Input.js";
 import BtnprimaryComponent from "../../elements/button/BtnPrimary.js";
 

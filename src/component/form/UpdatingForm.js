@@ -3,7 +3,6 @@ import axios from "axios"; // Importez axios ici
 import "./index.css"; // Importez votre fichier CSS
 import Input from "../elements/input/Input.js";
 import BtnprimaryComponent from "../elements/button/BtnPrimary.js";
-import { redirect } from "react-router-dom";
 
 const Form = ({ type, toupdate, id, paramname , valuetype ,path,redirection}) => {
   const [updatedvalue, setUpdatedValue] = useState(""); // état pour l'objet

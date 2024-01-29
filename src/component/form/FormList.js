@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css"; // Importez votre fichier CSS
-import Input from "../elements/input/Input.js";
 import BtnprimaryComponent from "../elements/button/BtnPrimary.js";
 import SelectComponent from "../elements/input/Select.js";
 const Form = () => {

@@ -5,7 +5,6 @@ import "./index.css";
 import Ad from "../../elements/ad/Ad";
 import Quotes from "../../elements/quote/Quote.js";
 import UpdatingForm from "../../form/UpdatingForm.js";
-import FormList from "../../form/FormList.js";
 import ListePlante from "../../elements/list-info/ListePlante.js";
 import Deletebutton from "../../elements/button/Deletebutton.js"
 
@@ -14,6 +13,7 @@ const CategorieBoard = () => {
   const [dataCategorie, setDataCategorie] = useState({});
 
   const searchParams = new URLSearchParams(location.search);
+  // eslint-disable-next-line
     const idCategorie = searchParams.get('idcategorie');
 
   useEffect(() => {

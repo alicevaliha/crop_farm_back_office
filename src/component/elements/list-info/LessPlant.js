@@ -1,8 +1,6 @@
 import React, { useEffect, useState } from "react";
 import axios from 'axios'; // Importez axios ici
 import './index.css'; 
-import Deletebutton from "../button/Deletebutton.js"
-import Input from '../input/Input.js';
 import BtnprimaryComponent from '../button/BtnPrimary.js';
 const LessPlant = () => {
     const [plantes, setPlantes] = useState([]);

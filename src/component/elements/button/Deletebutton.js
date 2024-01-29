@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import axios from 'axios';
-import { useLocation } from "react-router-dom";
 import "./index.css"; // Assurez-vous d'importer votre fichier CSS pour les styles
 // import axios from 'axios';
 

@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css"; // Importez votre fichier CSS
-import DeleteButton from "../../elements/button/Deletebutton.js"
 import Listinfo from "../../elements/list-info/ListInfo.js";
 
 const Graphbox = () => {

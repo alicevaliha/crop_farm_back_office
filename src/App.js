@@ -1,9 +1,5 @@
 import React from 'react';
-import Navbar from './component/navbar/Navbar';
-import Board from './component/box/board/Board';
-import LeftNav from './component/box/nav/LeftNav';
-import Footer from './component/box/footer/Footer';
-import { BrowserRouter, Router , Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Dashboard from './pages/Dashboard';
 import Categories from './pages/Categories';
 import DetailCategorie from './pages/DetailCategorie';

@@ -1,14 +1,7 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios'; // Importez axios ici
 import "./index.css";
-import Ad from "../../elements/ad/Ad";
-import Listbox from "../../card/listbox/Listbox.js"
-import Quotes from "../../elements/quote/Quote.js";
-import  Form from "../../form/Form.js"
-import LessPlant from "../../elements/list-info/LessPlant.js";
-import MoreButton from "../../elements/button/MoreButton.js";
 import CardValid from "../../card/card-photo/CardValid.js";
-import { useParams } from "react-router-dom";
 import { useLocation } from "react-router-dom";
 
 const TerrainBoard = () => {
@@ -18,7 +11,7 @@ const TerrainBoard = () => {
 
  
   useEffect(() => {
-
+    // eslint-disable-next-line
     const searchParams = new URLSearchParams(location.search);
     const idterrain = searchParams.get('idterrain');
     console.log(idterrain+" voilà le id haha ");
@@ -30,6 +23,7 @@ const TerrainBoard = () => {
     .then(response => {
       // Mettez à jour l'état avec les données récupérées depuis l'API
       setDataterrain(response.data);
+      // eslint-disable-next-line
       console.log(dataterrain.longueur);
     })
     .catch(error => {
