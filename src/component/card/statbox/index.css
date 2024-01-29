@@ -1,0 +1,42 @@
+.float-bloc-graph {
+    margin-top: 15%;
+    width: 49%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 51px;
+    filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.161));
+    padding: 20px; /* Ajoutez un padding pour espacer le contenu */
+}
+
+.float-bloc-stat {
+    margin-left: 2%;
+    margin-top: 15%;
+    width: 49%;
+    height: auto;
+    background-color: #F0FFE2;
+    border-radius: 51px;
+    filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.161));
+    padding: 20px; /* Ajoutez un padding pour espacer le contenu */
+}
+
+.greet {
+    color: #2b2e4a;
+}
+
+.title {
+    margin-top: 10px; /* Ajustez selon vos besoins */
+    color: #2b2e4a;
+    font-size: 20px;
+    font-family: "Poppins-SemiBold", "Poppins";
+    font-weight: 600;
+}
+
+.subtitle {
+    color: #707070;
+    font-size: 12px;
+    font-family: "Poppins-Regular", "Poppins";
+}
+
+.boxes{
+   display: flex;
+}

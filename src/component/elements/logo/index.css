@@ -1,0 +1,15 @@
+.logo-container {
+    margin-top: 30%;
+    margin-left: 35%;
+    width: 120px;
+    height: 80px;
+    background-image: url('../../../../public/assets/logo.png'); /* Chemin vers votre image */
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Style de la classe .a appliquée à votre élément */
+  .a {
+    fill: url(#a);
+  }
+  

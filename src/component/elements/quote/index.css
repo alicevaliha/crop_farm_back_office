@@ -1,0 +1,42 @@
+.quotes-container {
+    width: 379px;
+    height: 90%;
+    border-radius: 50px;
+    background-color: #2b2e4a;
+    border: 1px solid #707070;
+    position: relative;
+    margin-top: 15%;
+  }
+  
+  .background-quotes {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+  }
+  
+  .quote-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+  }
+  
+  .quote-text h1 {
+    font-size: 100%;
+    font-family: 'Poppins-Bold', 'Poppins';
+    font-weight: 700;
+    margin: 0;
+  }
+  
+  .quote-text p {
+    font-size: 80%;
+    font-family: 'Poppins-Thin', 'Poppins';
+    font-weight: 200;
+    margin: 0;
+  }
+  

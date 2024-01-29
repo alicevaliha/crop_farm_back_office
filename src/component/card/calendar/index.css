@@ -1,0 +1,73 @@
+.float-bloc {
+    margin-bottom: 20%;
+    margin-top: 15%;
+    margin-left: -5%;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    border-radius: 51px;
+    filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.161));
+    padding: 20px; /* Ajoutez un padding pour espacer le contenu */
+}
+
+.greet {
+    color: #2b2e4a;
+}
+
+.title {
+    margin-top: 10px; /* Ajustez selon vos besoins */
+    color: #2b2e4a;
+    font-size: 20px;
+    font-family: "Poppins-SemiBold", "Poppins";
+    font-weight: 600;
+}
+
+.subtitle {
+    color: #707070;
+    font-size: 12px;
+    font-family: "Poppins-Regular", "Poppins";
+}
+
+/* Dans votre fichier index.css */
+.react-calendar {
+    border: solid 1px white;
+    background-color: white; /* Applique un arrière-plan blanc au calendrier */
+  }
+  
+  .react-calendar__tile {
+    border: solid 1px white;
+    background-color: white; /* Applique un arrière-plan blanc aux tuiles du calendrier */
+  }
+  
+  .react-calendar__tile--active {
+    color: white;
+    border: solid 1px white;
+    background-color: #2b2e4a;/* Exemple: Couleur de fond pour les tuiles actives */
+  }
+  
+  .react-calendar__tile--now {
+    border: solid 1px white;
+    color: white;
+    background-color: #ffcd38; /* Exemple: Couleur de fond pour la tuile du jour en cours */
+  }
+  
+  /* Vous pouvez ajouter d'autres styles en fonction de vos besoins */
+
+  .react-calendar__navigation {
+    border: solid 1px white;
+    background-color: white; /* Applique un arrière-plan blanc à la navigation du calendrier */
+  }
+  
+  .react-calendar__navigation--prev,
+  .react-calendar__navigation--next {
+    border: solid 1px white;
+
+    background-color: white; /* Arrière-plan blanc pour les boutons de navigation précédent/suivant */
+  }
+  
+  .react-calendar__navigation button {
+    border: solid 1px white;
+
+    color: #2b2e4a; /* Couleur du texte pour les boutons de navigation */
+  }
+  

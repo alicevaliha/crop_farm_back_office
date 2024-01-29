@@ -1,0 +1,27 @@
+.float-bloc-list-form{
+    argin-top: 15%;
+    /* height: auto; */
+    height: 81%;
+    background-color: #ffffff;
+    border-radius: 51px;
+    filter: drop-shadow(0px 3px 3px rgba(0, 0, 0, 0.161));
+    padding: 20px;
+    width: 180%;
+}
+
+.login-bloc{
+
+margin-top: -41%;
+
+}
+
+.coverbottom{
+
+    background-image: url('../../../public/assets/ad2.jpg');
+   height: 4vh;
+    margin-top: 2%;
+    border-bottom-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+    /* margin-top: -41%; */
+    
+}

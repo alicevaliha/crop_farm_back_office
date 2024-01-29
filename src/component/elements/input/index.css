@@ -1,0 +1,44 @@
+.input-container {
+    margin-top: 10%;
+    position: relative;
+    width: 250px;
+    height: 50px;
+  }
+  
+  .input-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+  }
+  
+  .input-field {
+    width: calc(100% - 20px);
+    padding: 10px;
+    font-size: 70%;
+    font-family: 'Poppins-Regular', 'Poppins';
+    border: none;
+    background: transparent;
+    outline: none;
+    box-sizing: border-box;
+    background-color: #fff;
+    border: 1px solid #2b2e4a;
+    border-radius: 27px;
+  }
+
+  .input-field {
+    /* Vos styles existants */
+    position: relative;
+  }
+  
+  .input-field::placeholder {
+    /* Styles pour le placeholder */
+    transition: transform 0.6s ease; /* Transition pour l'animation */
+  }
+  
+  .input-field:hover::placeholder {
+    transform: translateY(-30px); /* Déplacement du placeholder vers le haut */
+  }
+  
+
+  

@@ -1,0 +1,7 @@
+.half-background {
+    background-image: url('../../public/assets/ad2.jpg');
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+}

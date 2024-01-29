@@ -1,0 +1,56 @@
+.card-parcelle-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 42px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-image: url('../../../../public/assets/footer.jpg');
+    background-position: center;
+    background-color: rgba(43, 46, 74, 0.6);
+    height: 25%;
+    margin-top: 4%;
+}
+
+  .card-parcelle-filter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    border-radius: 42px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #2b2e4a8f;
+    margin-top: -25%;
+    height: 25%;
+    }
+
+    .morebuttonparcelle .line-more-more{
+
+    margin-left: 10%;
+  }
+
+  .morebuttonparcelle .line-more{
+
+    opacity: 0;
+  }
+  
+  
+  .text-container-parcelle {
+    color: #fff;
+    margin-left: 20px;
+  }
+  
+  .rendement-text {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .id-parcelle-text {
+    font-size: 16px;
+  }
+  
+  .types-cultures-text {
+    font-size: 14px;
+  }
+  
+  

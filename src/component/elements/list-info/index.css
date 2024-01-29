@@ -1,0 +1,98 @@
+.list-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e7e7e7;
+    color: #2b2e4a;
+    padding: 10px 20px;
+    border-radius: 30px;
+    width: 80%; /* Ajustez la largeur selon vos besoins */
+  }
+  
+  .plant-image img {
+    width: 50px; /* Ajustez la taille de l'image selon vos besoins */
+    /* height: auto; */
+    border-radius: 30%; /* Pour obtenir un bord arrondi */
+  }
+  
+  .plant-name,
+  .harvests,
+  .sales {
+    font-family: 'Poppins-SemiBold', 'Poppins';
+    font-weight: 600;
+    margin-left: -20%;
+    margin-top: -2%;
+  }
+  
+  .info {
+    font-family: 'Poppins-Regular', 'Poppins';
+    font-size: 12px;
+    margin-left: -45%;
+    margin-top: 11%;
+  }
+  
+  .plant-name {
+    width: 15%;
+  }
+  
+  .harvests,
+  .sales {
+    width: 20%;
+  }
+
+  /* categorie */
+
+  .list-info-cat {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ffffff;
+    color: #2b2e4a;
+    padding: 10px 20px;
+    border-radius: 30px;
+    width: 100%; /* Ajustez la largeur selon vos besoins */
+    border: solid 1px  #2b2e4a;
+    margin-top: 10%;
+    height: 100px;
+    margin-left: -6%;
+  }
+
+  .plant-image-cat img {
+    margin-left: -3%;
+    width: 200px; 
+    height: 90px;
+    /* Ajustez la taille de l'image selon vos besoins */
+    /* height: auto; */
+    border-radius: 30px; /* Pour obtenir un bord arrondi */
+    border: solid 1px  #2b2e4a;
+  }
+
+  .cat-name {
+    font-weight: bold;
+    width: 100%;
+    margin-left: 2%;
+    margin-top: -10%;
+  }
+  
+  .info-cat {
+    font-family: 'Poppins-Regular', 'Poppins';
+    font-size: 12px;
+    margin-left: -123%;
+    /* margin-top: 11%; */
+  }
+
+  .list-info-plt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e7e7e7;
+    color: #2b2e4a;
+    padding: 10px 20px;
+    border-radius: 30px;
+    width: 50%; /* Ajustez la largeur selon vos besoins */
+  }
+  
+  .detail{
+    background-color: white;
+    border: solid 1px #2b2e4a;;
+  }

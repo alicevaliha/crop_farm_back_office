@@ -1,0 +1,51 @@
+
+
+.navbox {
+    margin-top: 2%;
+    margin-left: -2%; 
+    width: 200px;
+    height: 1080px;
+    background-color: #ffffff;
+    border: 1px solid #edf5f5;
+    position: relative;
+    border-top-right-radius: 70px; /* Rayon pour le coin supérieur droit */
+  border-bottom-right-radius: 70px;
+  }
+  
+  .logo {
+    width: 94px;
+    height: 89px;
+    position: absolute;
+    top: 6px;
+    left: 9px;
+  }
+  
+  .content {
+    margin-top: 60%;
+    margin-left: 5%;
+    padding: 20px;
+
+  }
+
+  .navButtonsContainer {
+    display: flex;
+    flex-direction: column; 
+ }
+  
+  .navButtonsContainer > * {
+    margin-right: 20px; /* Espacement horizontal entre les boutons */
+  }
+  
+  .navButtonsContainer > *:last-child {
+    margin-right: 0; /* Supprime la marge du dernier bouton */
+  }
+  
+  /* Styles des éléments de contenu de votre navigation */
+  
+  .navleft {
+    margin-top: -83%;
+    margin-left: 76%;
+    width: 15%;
+    height: 2283px;
+  }
+  

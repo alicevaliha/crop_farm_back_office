@@ -1,0 +1,199 @@
+.navButton {
+    margin-top: 30%;
+    width: 152px;
+    height: 34px;
+    background-color: #fff;
+    border: none;
+    border-radius: 13px;
+    font-size: 14px;
+    font-family: 'Poppins-Regular', 'Poppins';
+    color: #707070;
+    cursor: pointer;
+    outline: none;
+    transition: width 0.6s ease, height 0.6s ease, background-color 0.6s ease;
+  }
+  
+  .navButton:hover {
+    width: 159px;
+    height: 44px;
+    background-image: linear-gradient(to bottom right, #dff1cc, #90ce52);
+    border-radius: 13px;
+    color: #fff;
+  }
+  
+  .delete-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    transition: width 0.6s ease, height 0.6s ease, background-color 0.6s ease;
+  }
+  
+  .delete-icon {
+    width: 100%;
+    height: 100%;
+    border: 2px solid #ffffff;
+    border-radius: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2b2e4a;
+    position: relative;
+  }
+  
+  .line {
+    width: 70%;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    transition: transform 0.3s ease;
+  }
+  
+  .line:nth-child(2) {
+    transform: translate(-50%, -50%) rotate(-45deg);
+  }
+  
+  .delete-button:hover .line {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  
+  .delete-button:hover {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+  }
+  
+
+li {
+    list-style-type: none;
+  }
+
+  .details-terrain-button {
+    width: 71px;
+    height: 83px;
+    position: relative;
+    cursor: pointer;
+    margin-left: 51%;
+    border: solid 0 #2b2e4a;
+    border-radius: 27px;
+    background-color: white;
+    margin-top: 5%;
+    transition: transform 6s ease;
+}
+
+.background-terrain {
+    border: solid 0 #2b2e4a;
+    height: 28%;
+    background-color: #fff;
+    border-radius: 27px;
+    transition: width 6s ease; /* Ajout de la transition pour la largeur */
+}
+
+.arrow-terrain {
+    width: 0;
+    height: 0;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 20px solid #2b2e4a;
+    margin-left: 34%;
+    margin-top: -40%;
+    transition: transform 0.8s ease;
+}
+
+.details-terrain-button:hover  {
+    width: 80px; /* Augmenter la largeur du background lors du survol */
+}
+
+.details-terrain-button:hover .arrow-terrain {
+    transform: rotate(360deg); /* Rotation de 360 degrés lors du survol */
+}
+
+.btn-primary {
+    width: 50%;
+    height: 50px;
+    background-color: #2b2e4a;
+    border: 1px solid #707070;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    transition: transform 0.6s ease;
+}
+
+.btn-primary:hover {
+    transform: scale(1.1); /* Augmente la taille de 10% lors du survol */
+}
+
+  
+  .btn-text {
+    color: #fff;
+    font-size: 80%;
+    font-family: 'Poppins-SemiBold', 'Poppins';
+    font-weight: 600;
+  }
+  
+  
+  
+  /* more button */
+  .more-button-container {
+    margin-left: -25%;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 32%;
+  }
+  
+  .circle-more {
+    width: 65px;
+    height: 65px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: width 0.6s ease, height 0.6s ease, background-color 0.6s ease; /* Apply transitions only to specific properties */
+  }
+  
+  .line-more,
+  .line-more-more {
+    width: 3px;
+    height: 26px;
+    background-color: #2b2e4a;
+    margin-left: -30%;
+    opacity: 1;
+  }
+  
+  .line-more-more {
+    transform: rotate(90deg);
+    margin: -1%;
+  }
+  
+  .label-more {
+    font-size: 16px;
+    font-family: 'Poppins-SemiBold', 'Poppins';
+    font-weight: 600;
+    color: #2b2e4a;
+    opacity: 0;
+    margin-left: -40%;
+  }
+  
+  .more-button-container:hover .line-more-more,
+  .more-button-container:hover .line-more {
+    opacity: 0;
+  }
+  
+  .more-button-container:hover .label-more {
+    opacity: 1;
+    color: white;
+  }
+  
+  .more-button-container:hover .circle-more {
+    width: 150px;
+    height: 150px;
+    background-color: #2b2e4a;
+  }
+  

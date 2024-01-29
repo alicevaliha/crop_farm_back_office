@@ -1,0 +1,55 @@
+.terrain-button {
+    width: 326px;
+    height: 126px;
+    position: relative;
+  }
+  
+  .background-terrain-button {
+    width: 81%;
+    height: 93%;
+    background-color: #edf5f5;
+    border-radius: 27px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .content-terrain-button {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    color: #2b2e4a;
+  }
+  
+  .text-terrain-button {
+    font-size: 18px;
+    font-family: 'Poppins-SemiBold', 'Poppins';
+    font-weight: 600;
+  }
+  
+  .info-terrain-button {
+    font-size: 16px;
+    font-family: 'Poppins-Regular', 'Poppins';
+    color: #707070;
+    margin-top: 10px;
+  }
+  
+  .arrow {
+    width: 0;
+    height: 0;
+    border-top: 17px solid transparent;
+    border-bottom: 17px solid transparent;
+    border-left: 20px solid #2b2e4a;
+    position: absolute;
+    top: 32px;
+    right: 0;
+  }
+
+  .ul-leftnav {
+
+  margin-left: -26%;
+  margin-top: 21%;
+
+}
+  
+  
