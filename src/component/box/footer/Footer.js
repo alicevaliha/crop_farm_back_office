@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="footer-background">
         <div className="footer-text">Admin Dashboard by Crop Farm</div>
         <div className="footer-info">
-          ETU00NNNN - ETU00NNNN - ETU00NNNN - ETU00NNNN
+          ETU002195 - ETU002160 - ETU001683 - ETU002180
         </div>
       </div>
     </footer>

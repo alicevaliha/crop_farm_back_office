@@ -25,6 +25,8 @@ const Graphbox = ({ datasource }) => {
       ],
     };
 
+    //
+
     const myChart = new Chart(chartRef.current, {
       type: "line",
       data: monthlyHarvests,
